@@ -6,7 +6,7 @@ import { Globe, Lock, AlertTriangle, ArrowRight, Eye } from "lucide-react";
 export default function Banner() {
   return (
     <div className="relative min-h-screen overflow-hidden bg-gradient-to-b text-white">
-      <div className="absolute inset-0 bg-[url('/noise.png')] opacity-10 mix-blend-overlay pointer-events-none"></div>
+      <div className="absolute inset-0 opacity-10 mix-blend-overlay pointer-events-none"></div>
 
       <div className="absolute top-0 left-0 w-full h-full overflow-hidden pointer-events-none">
         <motion.div

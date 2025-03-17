@@ -13,7 +13,7 @@ import {
 export default function MoreInfoSection() {
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b from-gray-900 via-black to-gray-900 text-white overflow-hidden relative">
-      <div className="absolute inset-0 bg-[url('/noise.png')] opacity-5 mix-blend-overlay pointer-events-none"></div>
+      <div className="absolute inset-0 opacity-5 mix-blend-overlay pointer-events-none"></div>
 
       <div className="absolute opacity-30 blur-3xl -z-10">
         <div className="absolute top-0 -left-20 w-72 h-72 bg-yellow-600/20 rounded-full"></div>

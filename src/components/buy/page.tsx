@@ -22,7 +22,7 @@ export default function ConvinceToBuyPage() {
 
   return (
     <div className="flex flex-col items-center justify-center min-h-screen bg-gradient-to-b text-white overflow-hidden">
-      <div className="absolute inset-0 bg-[url('/noise.png')] opacity-5 mix-blend-overlay pointer-events-none"></div>
+      <div className="absolute inset-0 opacity-5 mix-blend-overlay pointer-events-none"></div>
 
       <motion.div
         className="w-full max-w-4xl px-6 py-16 relative z-10"

@@ -6,11 +6,13 @@ import { Eye, Lock, FileText, AlertTriangle } from "lucide-react";
 
 export default function ImageGallerySection() {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [isClient, setIsClient] = useState(false);
   const images = Array.from({ length: 10 }).map(
     (_, i) => `/image/Home ${i + 1}.png`
   );
 
   useEffect(() => {
+    setIsClient(true);
     const timer = setInterval(() => {
       setCurrentIndex((prevIndex) => (prevIndex + 1) % images.length);
     }, 3000);
@@ -22,9 +24,10 @@ export default function ImageGallerySection() {
     setCurrentIndex(index);
   };
 
+  if (!isClient) return null;
   return (
     <div className="relative min-h-screen py-24 bg-gradient-to-b text-white overflow-hidden">
-      <div className="absolute inset-0 bg-[url('/noise.png')] opacity-5 mix-blend-overlay pointer-events-none"></div>
+      <div className="absolute inset-0 opacity-5 mix-blend-overlay pointer-events-none"></div>
 
       <div className="absolute top-0 right-0 w-full h-full overflow-hidden pointer-events-none">
         <motion.div
