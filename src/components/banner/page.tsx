@@ -1,7 +1,7 @@
 "use client";
 import { motion } from "framer-motion";
 import Image from "next/image";
-import { Globe, Lock, AlertTriangle, ArrowRight, Eye } from "lucide-react";
+import { Globe, Lock, ArrowRight, Eye } from "lucide-react";
 
 export default function Banner() {
   return (

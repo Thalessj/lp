@@ -20,10 +20,9 @@ export default function ImageGallerySection() {
     return () => clearInterval(timer);
   }, [images.length]);
 
-  const handleThumbnailClick = (index: any) => {
+  const handleThumbnailClick = (index: number) => {
     setCurrentIndex(index);
   };
-
   if (!isClient) return null;
   return (
     <div className="relative min-h-screen py-24 bg-gradient-to-b text-white overflow-hidden">

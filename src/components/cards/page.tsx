@@ -1,16 +1,6 @@
 "use client";
 import { motion } from "framer-motion";
-import {
-  FolderOpen,
-  User,
-  Shield,
-  FileText,
-  Globe,
-  Star,
-  Lock,
-  Briefcase,
-  Key,
-} from "lucide-react";
+import { FolderOpen, User, Shield, FileText, Globe, Star } from "lucide-react";
 
 const cardData = [
   {
