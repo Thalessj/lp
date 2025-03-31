@@ -148,7 +148,7 @@ export default function ConvinceToBuyPage() {
             animate="visible"
             transition={{ duration: 0.5, delay: 1.8 }}
           >
-            Apenas R$27,90!
+            Apenas R$19,99!
           </motion.p>
         </motion.div>
 

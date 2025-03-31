@@ -7,7 +7,7 @@ import { Eye, Lock, FileText, AlertTriangle } from "lucide-react";
 export default function ImageGallerySection() {
   const [currentIndex, setCurrentIndex] = useState(0);
   const [isClient, setIsClient] = useState(false);
-  const images = Array.from({ length: 10 }).map(
+  const images = Array.from({ length: 4 }).map(
     (_, i) => `/image/Home ${i + 1}.png`
   );
 
