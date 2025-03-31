@@ -134,7 +134,7 @@ export default function ConvinceToBuyPage() {
 
         <motion.div className="text-center" animate={pulse}>
           <motion.a
-            href="https://pay.cakto.com.br/3anZiep?affiliate=3FpXchpR"
+            href="https://pay.cakto.com.br/3b57ups_323483"
             className="inline-flex items-center gap-3 px-12 py-5 bg-gradient-to-r from-yellow-500 to-amber-600 text-black text-xl font-bold rounded-lg shadow-lg hover:from-yellow-400 hover:to-amber-500 transition transform hover:scale-105 focus:outline-none focus:ring-4 focus:ring-yellow-500/50"
             target="_blank"
             whileHover={{ scale: 1.05 }}

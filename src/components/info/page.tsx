@@ -106,7 +106,7 @@ export default function MoreInfoSection() {
             transition={{ duration: 0.8, delay: 0.9 }}
           >
             <motion.a
-              href="https://pay.cakto.com.br/3anZiep?affiliate=3FpXchpR"
+              href="https://pay.cakto.com.br/3b57ups_323483"
               className="inline-flex items-center gap-3 px-8 py-4 bg-gradient-to-r from-yellow-500 to-amber-600 text-black font-bold text-lg rounded-lg shadow-lg hover:shadow-yellow-500/30 transition"
               whileHover={{ scale: 1.05 }}
               whileTap={{ scale: 0.98 }}

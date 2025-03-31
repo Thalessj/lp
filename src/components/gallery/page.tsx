@@ -199,7 +199,7 @@ export default function ImageGallerySection() {
               </ul>
 
               <motion.a
-                href="https://pay.cakto.com.br/3anZiep?affiliate=3FpXchpR"
+                href="https://pay.cakto.com.br/3b57ups_323483"
                 className="mt-6 w-full inline-flex items-center justify-center gap-2 py-3 bg-gradient-to-r from-yellow-500 to-amber-600 text-black font-bold rounded-lg shadow-lg hover:shadow-yellow-500/30 transition"
                 whileHover={{ scale: 1.03 }}
                 whileTap={{ scale: 0.98 }}
